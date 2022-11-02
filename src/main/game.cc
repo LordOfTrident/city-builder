@@ -133,7 +133,6 @@ void Game::LoadFont(const std::string &p_key,
 void Game::LoadAssets() {
 	LoadTexture("tile_sheet", "./res/tile_sheet.bmp");
 	LoadTexture("logo",       "./res/logo.bmp");
-	LoadTexture("background", "./res/background.bmp");
 
 	LoadTexture("frames/dialog", "./res/frames/dialog.bmp");
 	LoadTexture("frames/menu",   "./res/frames/menu.bmp");
