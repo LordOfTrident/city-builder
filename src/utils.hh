@@ -21,7 +21,10 @@
 #define __FUNC__ __func__
 
 // To silence compiler errors complaining about no return after a Panic statement
-#define SILENCE_RETURN_WARNING() UNREACHABLE()
+#define SILENCE_RETURN_WARNING() \
+	std::cerr << __FILE__ << ":" << __LINE__ << ": Reached unreachable return warning silencer" \
+	          << std::endl; \
+	std::exit(EXIT_FAILURE)
 
 #define TO_STR(P_X)    __TO_STR(P_X)
 #define __TO_STR(P_X)  #P_X
