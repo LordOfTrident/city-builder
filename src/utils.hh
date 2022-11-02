@@ -21,7 +21,7 @@
 #define __FUNC__ __func__
 
 // To silence compiler errors complaining about no return after a Panic statement
-#define SILENCE_RETURN_WARNING() std::exit(EXIT_FAILURE)
+#define SILENCE_RETURN_WARNING() UNREACHABLE()
 
 #define TO_STR(P_X)    __TO_STR(P_X)
 #define __TO_STR(P_X)  #P_X
