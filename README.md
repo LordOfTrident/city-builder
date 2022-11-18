@@ -1,5 +1,6 @@
 <p align="center">
-	<h1 align="center">City Builder</h2>
+	<img width="400px" src="res/logo.png"/>
+	<!--<h1 align="center">City Builder</h2>-->
 	<p align="center">An isometric C++/SDL2 city building game</p>
 </p>
 <p align="center">
